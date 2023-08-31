@@ -13,17 +13,16 @@ import {
 import styles from './styles.module.scss'
 
 const Post = ({ post }) => {
-    const date = format(new Date(post.publishedDate), 'dd MMM yyy');
     return (
         <Article backUrl="/" className={styles.post}>
             <Head>
-                <title>{post.meta_title}</title>
+                <title>{post?.meta_title}</title>
             </Head>
             <Title className={styles.postTitle}>
-                {post.title}
+                {post?.title}
             </Title>
-            <p className={styles.postDate}>{date}</p>
-            <Content body={post.body} />
+            <p className={styles.postDate}>hello</p>
+            <Content body={post?.body} />
         </Article>
     );
 }

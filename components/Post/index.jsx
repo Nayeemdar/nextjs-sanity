@@ -29,12 +29,12 @@ const Post = ({
           </Title>
           <div className={styles.postContent}>
             <div className={styles.postImage}>
-              <Image
+              {/* <Image
                 src={urlFor(image).url()}
                 alt={image.caption}
                 width="100"
                 height="100"
-              />
+              /> */}
             </div>
             <p
               className={styles.postDescription}

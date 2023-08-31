@@ -4,8 +4,8 @@
     "name": "my-super-blog"
   },
   "api": {
-    "projectId": "yyzryzyu",
-    "dataset": "production"
+    "projectId": "xeej86go",
+    "dataset": "production1"
   },
   "plugins": [
     "@sanity/base",
@@ -15,9 +15,7 @@
   ],
   "env": {
     "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
+      "plugins": ["@sanity/vision"]
     }
   },
   "parts": [
