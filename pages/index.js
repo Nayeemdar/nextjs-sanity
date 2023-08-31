@@ -55,6 +55,7 @@ export default function Home({ initialPosts, total }) {
             <Post
               key={post._id}
               {...post}
+              data={post}
             />
           ))}
         </PostGrid>
