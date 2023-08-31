@@ -17,7 +17,7 @@ const Post = ({
 }) => {
   return (
     <Link
-      href={`/post/${encodeURIComponent(slug.current)}`}
+      href={`/${encodeURIComponent(slug.current)}`}
       className={cl(className, styles.post)}
     >
         <a className={styles.postLink}>
